@@ -1,8 +1,8 @@
 
 class Solution {
     public long maximumSubarraySum(int[] nums, int k) {
-        int Maxsum =0;
-        int sum = 0;
+        long Maxsum =0;
+        long sum = 0;
         HashSet<Integer> set = new HashSet<>();
         int left = 0;
         for (int right = 0; right < nums.length; right++) {
